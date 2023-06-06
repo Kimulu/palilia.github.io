@@ -1,80 +1,83 @@
-.navbar{
-    background-color: white !important;;
+body{
+  background-color: black;
 }
-.navbar-nav{
-    margin-left:0% !important;
-    margin-right:0% !important;
-}
-.navbar-brand{
-    padding-right:20rem;
-    padding-left:20rem;
-}
-.nav-item{
-    padding-top:2rem;  
+.navbar-expand-lg .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
-
-@media only screen and (max-width: 1208px) {
-    .navbar-brand{
-        padding-right:17rem;
-  }
-}
-
-.sticky-top {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-
-#started_small{
-  background-color:black;
-  padding-top:3%;
-}
-#started_small2{
-  background-color:black;
-  padding-top:1%;
-}
-#started_small3{
-  background-color:black;
-}
-
-.footer{
-  background-color:rgb(48, 48, 48);
+.nav-link{
   color:white;
-  text-align:center;
-  padding:1% 0% 1% 0%;
+  text-align: none;
+  text-decoration: none;
+  
 
 }
-.img_started{
+.nav-li{
+ margin-right:80px !important;
+}
+.nav-lin{
+  margin-right:50px !important;
+}
+
+.nav-link:hover{
+  color:green !important;
+}
+
+.hero_image{
   height:100%;
   width:100%;
 }
-
-
-.special_banner{
+.project_image{
   height:100%;
-  width:100%;
-  padding-left:7%;
-
+  width:87%;
 }
-.special_banner2{
-  height:100%;
-  width:100%;
 
-
+.project_1{
+  padding-top:8%;
+  
 }
-.slide-up {
-    animation: slideUp 1s ease-in-out;
+
+
+h2{
+  color:white;
+  font-size: 3rem;
+  padding-left:8%;
+}
+
+p{
+  color:white;
+  font-size:18px;
+  padding-left:8%;
+  padding-top:4%;
+}
+
+.form-control{
+  width:40%;
+  margin-left:37px;
+}
+
+@media only screen and (max-width: 1000px) {
+  #project_1 {
+    text-align:center;
+  
+}
+  h2{
+    font-size:2rem;
+    padding-left:0%;
   }
-
-  @keyframes slideUp {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    100% {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  p{
+    color:white;
+    font-size:18px;
+    padding-left:0%;
+    padding-top:4%;
   }
+  .form-control{
+    margin:auto;
+    text-align:center;
+    
+  }
+}
+
+
+
+
